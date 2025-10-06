@@ -22,7 +22,33 @@ function App() {
         <Footer />
       </div>
     </Router>
+    
   );
 }
 
 export default App;
+
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import Home from './components/Home';
+// import Explore from './components/Explore';
+// import Safety from './components/Safety';
+// import Header from './components/Header'; // Header ko import karein
+
+// function App() {
+//   return (
+//     <BrowserRouter>
+//       <Header /> {/* Header ko Routes ke bahar rakhein */}
+//       <main>
+//         <Routes>
+//           <Route path="/" element={<Home />} />
+//           <Route path="/explore" element={<Explore />} />
+//           <Route path="/safety" element={<Safety />} />
+//           {/* Emergency page ka route bhi add karein */}
+//         </Routes>
+//       </main>
+//       {/* Yahaan aap Footer component bhi add kar sakti hain */}
+//     </BrowserRouter>
+//   );
+// }
+
+// export default App;
